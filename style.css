@@ -384,6 +384,9 @@ font-size: 30px
 
 }
 /* SECTION MY SERVICES */
+#service {
+    padding: 10px 0px;
+}
 
 .myservices {
     width: 100vw;
