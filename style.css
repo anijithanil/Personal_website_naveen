@@ -359,7 +359,8 @@ font-size: 30px
         overflow-x: hidden;
     }
     .left-image-section {
-        width: 60%;
+        width: 100%;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
         
@@ -367,14 +368,16 @@ font-size: 30px
     .image img {
         border-radius: 10px;
         object-fit: cover;
-                margin-left: auto;
-        margin-right: auto;
+        text-align: center;
+
         
 
         
     }
     .text-content h1{
         font-size: 40px;
+        text-align: center;
+        margin-top: 15px;
     }
     .right-content-section {
         margin-left: auto;
@@ -550,7 +553,7 @@ font-size: 30px
 /* CONTACT PAGE */
 .contact-page {
     width: 100vw;
-    height: 100vh;
+    min-height: 600px;
     overflow-x: hidden;
     display: flex;
     justify-content: space-around;
@@ -622,6 +625,7 @@ font-size: 30px
 }
 .sub-btn {
     margin-top: 15px;
+    
     padding:14px 58px;
     color: white;
     background-color: #000000;
@@ -630,6 +634,7 @@ font-size: 30px
     cursor: pointer;
     color: white;
     font-weight: bold;
+    text-align: center;
 }
 .sub-btn:hover {
     background-color: #7924b6;
@@ -637,9 +642,13 @@ font-size: 30px
 }
 
 @media only screen and (max-width: 768px) {
+
+    .card {
+        width: 320px;
+    }
     .contact-page {
         width: 100vw;
-        height: 100vh;
+        
         overflow-x: hidden;
         overflow-y: hidden;
         display: flex;
@@ -648,7 +657,14 @@ font-size: 30px
         align-items: center;
         background-color: #000000;
         color: white;
+        
 
+    }
+    .content {
+        
+    }
+    .cv-btn {
+        text-align: center;
     }
     .contact-page content {
         text-align: center;
@@ -656,7 +672,12 @@ font-size: 30px
     .contact-form {
         margin-top: 10%;
         width: 60%;
+        margin-bottom: 10%;
+        text-align: center;
 
+    }
+    .sub-btn {
+        text-align: center;
     }
 
 }
