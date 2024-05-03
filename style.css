@@ -402,10 +402,12 @@ font-size: 30px
     overflow-y: hidden;
 }
 .head-title {
-    padding: 10px 10px 10px 60px;
+    
+    padding-top: 10px;
 }
 .head-title h1{
     font-size: 50px;
+    text-align: center;
 
 }
 .card-section {
