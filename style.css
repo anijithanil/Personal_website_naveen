@@ -402,7 +402,7 @@ font-size: 30px
     overflow-y: hidden;
 }
 .head-title {
-    
+    text-align: center;
     padding-top: 10px;
 }
 .head-title h1{
